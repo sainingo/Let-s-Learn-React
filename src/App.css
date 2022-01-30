@@ -1,0 +1,47 @@
+.container {
+  margin: 50px;
+}
+.navbar-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.magic {
+  margin-left: 60px;
+  padding: 2px;
+  border-radius: 5px;
+}
+button {
+  padding: 5px;
+  margin: 3px;
+  width: 20%;
+}
+.btn-plus {
+  background-color: rgb(248, 0, 0);
+  transition-duration: 0.5s;
+  border-radius: 5px;
+}
+.btn-plus:hover {
+  background-color: whitesmoke;
+}
+.btn-minus {
+  background-color: grey;
+  border-radius: 5px;
+}
+.btn-minus:hover {
+  background-color: whitesmoke;
+}
+.btn-reset {
+  background-color: #008CBA;
+  border-radius: 5px;
+}
+.btn-reset:hover {
+  background-color: whitesmoke;
+}
+.p-counter {
+  margin-left: 90px;
+  font-size: 25px;
+}
+h2 {
+  margin-left: 60px;
+}
