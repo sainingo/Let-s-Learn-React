@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './components/Navbar';
-import SecondApp from './SecondApp';
+import SecondApp from './components/SecondApp';
 
 function App() {
   return (

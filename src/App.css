@@ -39,9 +39,12 @@ button {
   background-color: whitesmoke;
 }
 .p-counter {
-  margin-left: 90px;
+  margin-left: 10px;
   font-size: 25px;
 }
 h2 {
   margin-left: 60px;
+}
+.main-div {
+  text-align: center;
 }

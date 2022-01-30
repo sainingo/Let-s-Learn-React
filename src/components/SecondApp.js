@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import './App.css'
+import '../App.css'
 
 function SecondApp(){
     const [counter, setCounter] = useState(0);
@@ -12,7 +12,7 @@ function SecondApp(){
         setCounter(preCount => preCount -1)
     }
     return (
-      <div>
+      <div className='main-div'>
           <h2>Magic of Javascript:</h2>
            <div className='magic'>
            <p className='p-counter'>{counter}</p>
